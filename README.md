@@ -24,7 +24,8 @@ python tools/predict.py \
 ## forth try
 - Since the matting method can only segment the human part, the mask obtained at the edge includes parts of the person, causing noise. Motivated by this, we used the trimap method to preprocess the image, enabling the matting algorithm to work only in areas needing optimization.
 - run repalce_color.py
-```python tools/predict.py \
+```python
+python tools/predict.py \
     --config configs/ppmatting/ppmatting-hrnet_w18-human_1024.yml \
     --model_path pretrained_models/ppmatting-hrnet_w18-human_1024.pdparams \
     --image_path demo/human.jpg \
