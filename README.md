@@ -33,3 +33,6 @@ python tools/predict.py \
     --fg_estimate True \
     --trimap_path /home/dengyiru/change_color/trimap.jpg
  ```
+ ## tip
+ SAM OPEN SOURCE:[https://github.com/facebookresearch/segment-anything]
+ PP-MATTING OPEN SOURCE:[https://github.com/PaddlePaddle/PaddleSeg/blob/release/2.8/Matting/README.md/#Models]
