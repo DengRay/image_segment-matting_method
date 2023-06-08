@@ -33,6 +33,11 @@ python tools/predict.py \
     --fg_estimate True \
     --trimap_path /home/dengyiru/change_color/trimap.jpg
  ```
+ ## fifth try
+ - I find there are some specific figure like lace and button which will be dismissed by the segmentation or matting method,so I do a KNN clustering for color on the trimap to optimize the fine granularity in the specific area.
+ - run focus_color.py to get the main color cluster.
+
  ## tip
  - SAM OPEN SOURCE:[https://github.com/facebookresearch/segment-anything]
  - PP-MATTING OPEN SOURCE:[https://github.com/PaddlePaddle/PaddleSeg/blob/release/2.8/Matting/README.md/#Models]
+ - my project report is in the pdf file which show more detailed description of my work
