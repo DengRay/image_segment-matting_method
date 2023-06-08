@@ -1,4 +1,4 @@
-# picture_segment-matting_method
+# image_segment-matting_method
 Internship program----Infimind project to change color on pictures with SAM model and PP-matting model
 
 This project is aim to change color at fasion domain, for example we intend to remain the pattern and design the same and only change color with CV algorithm.
