@@ -40,4 +40,4 @@ python tools/predict.py \
  ## tip
  - SAM OPEN SOURCE:[https://github.com/facebookresearch/segment-anything]
  - PP-MATTING OPEN SOURCE:[https://github.com/PaddlePaddle/PaddleSeg/blob/release/2.8/Matting/README.md/#Models]
- - my project report is in the pdf file which show more detailed description of my work
+ - my project report is in the docx file which show more detailed description of my work
